@@ -1,0 +1,17 @@
+server:
+  port: 3000
+  allowedHeaders: ["content-type"]
+  allowedMethods: ["POST", "GET", "PUT", "DELETE", "PATCH"]
+  allowedOrigins: ["*"]
+  exposedHeaders: []
+  jwtKey: "bXlfdWx0cmFfc3VwZXJfdWx0aW1hdGVfc2VjcmV0X2tleQ=="
+
+chaincodeName: "basic"
+channelName: "channel1"
+mspId: "Org1MSP"
+cryptoPath: "/Users/syed/Desktop/learn/hlf/syed/fabric-samples/dnn-hlf-scripts/organizations/peerOrganizations/org1.subskribo.com"
+certPath: "/Users/syed/Desktop/learn/hlf/syed/fabric-samples/dnn-hlf-scripts/organizations/peerOrganizations/org1.subskribo.com/users/User1@org1.subskribo.com/msp/signcerts/cert.pem"
+keyPath: "/Users/syed/Desktop/learn/hlf/syed/fabric-samples/dnn-hlf-scripts/organizations/peerOrganizations/org1.subskribo.com/users/User1@org1.subskribo.com/msp/keystore/"
+tlsCertPath: "/Users/syed/Desktop/learn/hlf/syed/fabric-samples/dnn-hlf-scripts/organizations/peerOrganizations/org1.subskribo.com/peers/peer0.org1.subskribo.com/tls/ca.crt"
+peerEndpoint: "localhost:7051"
+gatewayPeer: "peer0.org1.subskribo.com"
