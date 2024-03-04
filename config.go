@@ -30,7 +30,7 @@ type Server struct {
 
 func LoadConfig() *Config {
 	// set the directory path pointing to the config.yaml file
-	fp := "/home/azureuser/fabric-gateway-api/"
+	fp := "/app/"
 
 	viper.SetConfigType("yaml")
 	viper.AddConfigPath(fp)
