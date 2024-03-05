@@ -101,7 +101,7 @@ func (s *Service) DeleteAsset(id string) (any, error) {
 }
 
 func (s *Service) VoidAsset(data string) (any, error) {
-	res, err := s.contract.SubmitTransaction("VodataAsset", data)
+	res, err := s.contract.SubmitTransaction("VoidAsset", data)
 	if err != nil {
 		s.handleError("SubmitTransaction:VoidAsset err:", err)
 		return nil, err
